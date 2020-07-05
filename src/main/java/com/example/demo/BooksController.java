@@ -14,4 +14,10 @@ public String getAllBooks(Model model)
 //application code  
 return "Hello welcome";  
 }  
+@RequestMapping("/home")  
+public String getAllHome(Model model)  
+{  
+//application code  
+return "home.jsp";  
+}  
 }
